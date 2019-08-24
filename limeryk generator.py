@@ -1,7 +1,7 @@
 print("Welcome to my limerick generator. Please give three names that rhyme")
 planet = (input("Please give a planet name"))
 shape = (input("Please give a name of a shape"))
-verb = input("Please give a short verb and s personal pronoun (in this order)")
+verb = input("Please give a short verb and a personal pronoun (in this order)")
 
 print("There was one a young lady from " + planet)
 print("Whose body was shaped like a " + shape)
