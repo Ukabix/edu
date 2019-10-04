@@ -12,5 +12,5 @@ print(myset)
 myset.add(2) # no error
 print(myset)
 
-mylist = [1,1,1,1,1,2,2,3,3,3]
+mylist = [1,1,1,1,1,2,2,3,3,3] # funkcjonalność w wyszukiwaniu 
 print(set(mylist))
