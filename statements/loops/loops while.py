@@ -12,4 +12,3 @@ while x < 5:
     x += 1
 else:
     print('x is not less than 5')
-
