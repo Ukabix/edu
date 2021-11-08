@@ -1,2 +1,2 @@
 # python-basic
-# krótkie podsumowanie poszczególnych lekcji z kursu
+# course resources, homeworks, challanges and notebooks
