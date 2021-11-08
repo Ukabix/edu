@@ -8,7 +8,8 @@ test.expect(not is_valid_walk(['w']), 'should return False');
 test.expect(not is_valid_walk(['n','n','n','s','n','s','n','s','n','s']), 'should return False');
 """
 
-walk=(['n','s','n','s','n','s','n','s','n','s'])
+walk = (['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's'])
+
 
 def is_valid_walk(walk):
     sum_n = 0
@@ -17,20 +18,21 @@ def is_valid_walk(walk):
     sum_e = 0
     for step in walk:
         if step == 'n':
-            sum_n = sum_n +1
+            sum_n = sum_n + 1
         elif step == 's':
-            sum_s = sum_s +1
+            sum_s = sum_s + 1
         elif step == 'w':
-            sum_w = sum_w +1
+            sum_w = sum_w + 1
         elif step == 'e':
-            sum_e = sum_e +1
-        
-    if (sum_n>5 or sum_s>5 or sum_w>5 or sum_e>5) or not(sum_n + sum_s + sum_w + sum_e == 10):
+            sum_e = sum_e + 1
+
+    if (sum_n > 5 or sum_s > 5 or sum_w > 5 or sum_e > 5) or not(sum_n + sum_s + sum_w + sum_e == 10):
         return False
     else:
         if sum_n == sum_s and sum_w == sum_e:
             return True
         else:
             return False
+
 
 print(is_valid_walk(walk))

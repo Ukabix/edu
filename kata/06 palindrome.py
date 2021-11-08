@@ -1,4 +1,4 @@
-## do poprawy - coś jest nie tak z f palindrome
+# do poprawy - coś jest nie tak z f palindrome
 
 # Ask the user for a string and print out whether this string is a palindrome or not.
 # (A palindrome is a string that reads the same forwards and backwards.)
@@ -47,7 +47,7 @@ def main():
 #        else:
 #            print("")
         if answer != "":
-           print(answer)
+            print(answer)
 
 
 main()

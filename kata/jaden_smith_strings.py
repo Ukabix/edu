@@ -21,8 +21,3 @@ def to_jaden_case(string):
         newlist.append(word)
         string = " ".join(newlist)
     return(string)
-
-
-
-
-

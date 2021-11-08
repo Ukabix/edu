@@ -1,5 +1,6 @@
 import datetime
 
+
 def nameloop():
     name = ""
     while True:
@@ -9,6 +10,7 @@ def nameloop():
         else:
             print("Hello ", name, "!")
             break
+
 
 def ageloop():
     age = ""
@@ -27,7 +29,7 @@ def ageloop():
 nameloop()
 ageloop()
 
-#Ewentualnie inny sposób na kiedy indziej - poprzez timedelta?
+# Ewentualnie inny sposób na kiedy indziej - poprzez timedelta?
 #age = input("please tell me your age")
 #num = input("please give me a random number")
 #day = int(input("please tell me the day you were born"))
@@ -36,13 +38,13 @@ ageloop()
 #date1 = datetime.date(year, month, day)
 #year, month, day = map(int, birthdate.split("-"))
 #birthdate1 = datetime.date(year, month, day)
-#print(year)
-#print(month)
-#print(day)
+# print(year)
+# print(month)
+# print(day)
 #age = timedelta(today, date1)
 
 
-#print
+# print
 #print("Today is ", today, "You were born on", date1)
 #print("you are ", age, "years old")
 #print("You will turn 100 in ")

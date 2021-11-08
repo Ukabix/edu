@@ -22,6 +22,7 @@ test.assert_equals(find_nb(26825883955641), 3218)
 
 m = int(26825883955641)
 
+
 def find_nb(m):
     n = 1
     while m > 0:
@@ -32,7 +33,5 @@ def find_nb(m):
     elif m < 0:
         return(int(-1))
 
-   
 
-
-#def find_nb(m):
+# def find_nb(m):

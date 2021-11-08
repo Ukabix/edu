@@ -14,13 +14,9 @@ test.expect(not xo('xxxoo'), 'False expected')
 """
 
 
-
 def xo(s):
     ns = s.lower()
     if ns.count("x") == ns.count("o"):
         return True
     else:
         return False
-
-
-

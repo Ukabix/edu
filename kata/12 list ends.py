@@ -3,8 +3,9 @@
 
 import random
 
+
 def listCreate():
-    num = random.randint(1,10)
+    num = random.randint(1, 10)
     print(num)
     list1 = list(range(1, num + 1))
     print(list1)
@@ -14,7 +15,7 @@ def listCreate():
 def listOrder(num):
     list2 = []
     list2.extend([num[0], num[-1]])
-    #print(list2)
+    # print(list2)
     return list2
 
 

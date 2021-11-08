@@ -5,9 +5,10 @@
 
 import math
 
-list = [1,1]
+list = [1, 1]
 list.append(1+0)
 print(list)
+
 
 def fibonnaci():
     num = int(input("Please give a number: "))
@@ -20,14 +21,17 @@ def fibonnaci():
         list = [1, 1]
     elif num > 2:
         list = [1, 1]
-        while a < (num - 1): # dla num=3 -> 1x, dla 4 -> 2x itd
-#            print(a)
-#            print(list[a])
-#            print(a-1)
-#            print(list[a-1])
-#            print(list[a] + list[a-1])
-            list.append(list[a] + list[a-1]) # dla num=3 -> [1,1].append([1] + [1]!!! skąd tutaj 1 a nie 0???) -> dlatego że to wskazanie numeru elementu listy a nie suma, głupku! :)
+        while a < (num - 1):  # dla num=3 -> 1x, dla 4 -> 2x itd
+            #            print(a)
+            #            print(list[a])
+            #            print(a-1)
+            #            print(list[a-1])
+            #            print(list[a] + list[a-1])
+            # dla num=3 -> [1,1].append([1] + [1]!!! skąd tutaj 1 a nie 0???) -> dlatego że to wskazanie numeru elementu listy a nie suma, głupku! :)
+            list.append(list[a] + list[a-1])
 #           czyli dla 3-> [1,1].append(drugi [a=1] element list [1] + pierwszy [a=0] element listy [1]
             a += 1
     return list
+
+
 print(fibonnaci())

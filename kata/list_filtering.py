@@ -7,7 +7,7 @@ filter_list([1,'a','b',0,15]) == [1,0,15]
 filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 """
 
-l = [1,'a','b',0,15]
+l = [1, 'a', 'b', 0, 15]
 
 for item in l:
     if type(item) != int:
@@ -15,8 +15,7 @@ for item in l:
 
 print(l)
 
-#fruits.remove(string)
+# fruits.remove(string)
 
 
-
-#def filter_list(l):
+# def filter_list(l):

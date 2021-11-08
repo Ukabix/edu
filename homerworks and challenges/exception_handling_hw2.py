@@ -1,5 +1,5 @@
-### Problem 2
-# Handle the exception thrown by the code below by using <code>try</code> and <code>except</code> blocks. 
+# Problem 2
+# Handle the exception thrown by the code below by using <code>try</code> and <code>except</code> blocks.
 # Then use a <code>finally</code> block to print 'All Done.'
 
 # x = 5

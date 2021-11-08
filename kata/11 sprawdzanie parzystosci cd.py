@@ -39,4 +39,5 @@ def liczba_pierwsza_print(liczba):
 
 
 while 1 == 1:
-    liczba_pierwsza_print(podaj_liczbe("Enter a number to check. Ctl-C to exit."))
+    liczba_pierwsza_print(podaj_liczbe(
+        "Enter a number to check. Ctl-C to exit."))

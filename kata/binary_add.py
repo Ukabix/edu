@@ -17,6 +17,7 @@ def fixed_tests():
         test.assert_equals(add_binary(51,12),"111111")
 """
 
-def add_binary(a,b):
+
+def add_binary(a, b):
     result = bin(a+b)
     return result[2:]

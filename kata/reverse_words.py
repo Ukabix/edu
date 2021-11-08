@@ -23,7 +23,8 @@ def reverse_words(text):
         for word in text:
             newlist.append(word[::-1])
         return '  '.join(newlist)
-    else: # text.count(" ") and text.count("  ") == 0:
+    else:  # text.count(" ") and text.count("  ") == 0:
         return text[::-1]
+
 
 print(reverse_words('double  spaces'))

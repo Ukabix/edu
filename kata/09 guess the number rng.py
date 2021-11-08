@@ -1,4 +1,4 @@
-## Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them
+# Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them
 # whether they guessed too low, too high, or exactly right.
 # Extras:
 #    Keep the game going until the user types “exit”
@@ -7,7 +7,7 @@
 
 import random
 a = random.randint(1, 9)
-print(a) #spr
+print(a)  # spr
 
 # v.1
 # def main():
@@ -22,6 +22,8 @@ print(a) #spr
 # main()
 
 # v.2
+
+
 def main():
     counter = 0
     while counter >= 0 or guess != exit:
@@ -32,25 +34,25 @@ def main():
         #guess = int(guess)
         if int(guess) < a:
             counter += 1
-            print("You guessed wrong. The random number is larger. This is your ", counter, " try")
+            print(
+                "You guessed wrong. The random number is larger. This is your ", counter, " try")
         elif int(guess) > a:
             counter += 1
-            print("You guessed wrong. The random number is smaller. This is your ", counter, " try")
+            print(
+                "You guessed wrong. The random number is smaller. This is your ", counter, " try")
         elif int(guess) == a:
             counter += 1
-            print("That is right! You guessed on your ", counter, " try. Congrats!")
+            print("That is right! You guessed on your ",
+                  counter, " try. Congrats!")
         else:
             print("Please give a valid input")
-
-
 
 
 #        elif guess == "exit":
 #            break
 #        elif guess.isnumeric():
 #            print("Please input a number or 'exit' command")
-
 main()
 
-# może dodać jeszcze reset licznika? 
+# może dodać jeszcze reset licznika?
 # zrobić program, który sam obliczy rn?
